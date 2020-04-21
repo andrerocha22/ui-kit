@@ -1,0 +1,30 @@
+{
+  "name": "@andrefelipe/ui-kit",
+  "version": "1.0.1",
+  "author": "Andre Felipe Rocha",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 8080",
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/addon-centered": "^5.3.18",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/react": "^16.9.34",
+    "@types/styled-components": "^5.1.0",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-icons": "^3.10.0",
+    "ts-loader": "^7.0.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "polished": "^3.5.2",
+    "styled-components": "^5.1.0"
+  }
+}
